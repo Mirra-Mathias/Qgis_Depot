@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<plugins>
+     <pyqgis_plugin version="1.0" name="Mon extension" >
+         <description>Un texte court décrivant l'extension</description>
+         <homepage>http://www.monsite.fr</homepage>
+         <file_name>monextension.zip</file_name>
+         <author_name>Mon Nom</author_name>
+         <download_url>http://www.monsite.fr/qgis/plugins/monextension.zip</download_url>
+         <qgis_minimum_version>1.0.0</qgis_minimum_version>
+         <experimental>true</experimental>
+      </pyqgis_plugin>
+</plugins>
+
