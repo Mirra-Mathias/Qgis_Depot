@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
-    <pyqgis_plugin name="QuickWKT" version="3.1" plugin_id="11">
-        <description><![CDATA[Quick WKT/WKB viewer, this Qgis Plugin opens a dialog where the user can paste (E)WKT and WKB code and see it on the map. Pasted data are stored in a temporay (memory) layer and are completely lost when the user quits QGIS.]]></description>
+    <pyqgis_plugin name="SRO PRINT" version="0.2" plugin_id="1">
+        <description><![CDATA[Impression pdf à partir de section.]]></description>
         <about><![CDATA[Quick WKT/WKB is a plugin to easily show WKT/WKB data into QGIS. It also provides some utilities function and adds them to iface (see the about tab in the plugin&#39;s dialog for details).]]></about>
         <version>3.1</version>
         <trusted>True</trusted>
@@ -12,7 +12,7 @@
         <file_name>QuickWKT.3.1.zip</file_name>
         <icon>/media/packages/2016/quickwkt_icon_qsf96s5.png</icon>
         <author_name><![CDATA[Alessandro Pasotti]]></author_name>
-        <download_url>https://plugins.qgis.org/plugins/QuickWKT/version/3.1/download/</download_url>
+        <download_url>https://raw.githubusercontent.com/coutmat/Qgis_Depot/main/sro_print.zip</download_url>
         <uploaded_by><![CDATA[elpaso]]></uploaded_by>
         <create_date>2018-05-30T06:35:58.436556</create_date>
         <update_date></update_date>
