@@ -1,13 +1,31 @@
-<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
-     <pyqgis_plugin version="1.0" name="Mon extension" >
-         <description>Un texte court décrivant l'extension</description>
-         <homepage>http://www.monsite.fr</homepage>
-         <file_name>monextension.zip</file_name>
-         <author_name>Mon Nom</author_name>
-         <download_url>https://raw.githubusercontent.com/coutmat/Qgis_Depot/main/sro_print.zip</download_url>
-         <qgis_minimum_version>1.0.0</qgis_minimum_version>
-         <experimental>true</experimental>
-      </pyqgis_plugin>
+    <pyqgis_plugin name="QuickWKT" version="3.1" plugin_id="11">
+        <description><![CDATA[Quick WKT/WKB viewer, this Qgis Plugin opens a dialog where the user can paste (E)WKT and WKB code and see it on the map. Pasted data are stored in a temporay (memory) layer and are completely lost when the user quits QGIS.]]></description>
+        <about><![CDATA[Quick WKT/WKB is a plugin to easily show WKT/WKB data into QGIS. It also provides some utilities function and adds them to iface (see the about tab in the plugin&#39;s dialog for details).]]></about>
+        <version>3.1</version>
+        <trusted>True</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <homepage><![CDATA[http://www.itopen.it/2010/10/21/wkt-on-the-fly-qgis-plugin/]]></homepage>
+        <file_name>QuickWKT.3.1.zip</file_name>
+        <icon>/media/packages/2016/quickwkt_icon_qsf96s5.png</icon>
+        <author_name><![CDATA[Alessandro Pasotti]]></author_name>
+        <download_url>https://plugins.qgis.org/plugins/QuickWKT/version/3.1/download/</download_url>
+        <uploaded_by><![CDATA[elpaso]]></uploaded_by>
+        <create_date>2018-05-30T06:35:58.436556</create_date>
+        <update_date></update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/elpaso/quickwkt/issues]]></tracker>
+        <repository><![CDATA[https://github.com/elpaso/quickwkt]]></repository>
+        <tags><![CDATA[wkt,viewer]]></tags>
+        <downloads>102276</downloads>
+        <average_vote>4.7163475172012355</average_vote>
+        <rating_votes>67</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin>
 </plugins>
 
