@@ -19,31 +19,5 @@
         <tags><![CDATA[pdf,sro,impression,section]]></tags>
         <server>False</server>
     </pyqgis_plugin>
-    <pyqgis_plugin name="Tiles XYZ" version="0.8.1" plugin_id="1710">
-        <description><![CDATA[Processing algorithm for generating raster tiles]]></description>
-        <about><![CDATA[This plugin generates raster XYZ tiles of map canvas content. Tile images can be saved as individual images in directory structure, or as single file in MBTiles format.]]></about>
-        <version>0.8.1</version>
-        <trusted>True</trusted>
-        <qgis_minimum_version>3.0.0</qgis_minimum_version>
-        <qgis_maximum_version>3.6.99</qgis_maximum_version>
-        <homepage><![CDATA[https://github.com/lutraconsulting/qgis-xyz-tiles]]></homepage>
-        <file_name>tiles_xyz.0.8.1.zip</file_name>
-        <icon></icon>
-        <author_name><![CDATA[Lutra Consulting]]></author_name>
-        <download_url>https://plugins.qgis.org/plugins/tiles_xyz/version/0.8.1/download/</download_url>
-        <uploaded_by><![CDATA[wonder]]></uploaded_by>
-        <create_date>2019-06-27T04:30:28.643458</create_date>
-        <update_date></update_date>
-        <experimental>False</experimental>
-        <deprecated>False</deprecated>
-        <tracker><![CDATA[https://github.com/lutraconsulting/qgis-xyz-tiles/issues]]></tracker>
-        <repository><![CDATA[https://github.com/lutraconsulting/qgis-xyz-tiles]]></repository>
-        <tags><![CDATA[raster,tiles]]></tags>
-        <downloads>17458</downloads>
-        <average_vote>4.511010866425191</average_vote>
-        <rating_votes>45</rating_votes>
-        <external_dependencies></external_dependencies>
-        <server>False</server>
-    </pyqgis_plugin>
 </plugins>
 
