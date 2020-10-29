@@ -14,8 +14,8 @@
         <update_date></update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
-        <tracker><![CDATA[https://gitlab.com/mathiasmirra/sro_print_mcgr/-/issues]]></tracker>
-        <repository><![CDATA[https://gitlab.com/mathiasmirra/sro_print_mcgr]]></repository>
+        <tracker><![CDATA[https://github.com/Mirra-Mathias/PYQGIS_SRO_PRINT/issues]]></tracker>
+        <repository><![CDATA[https://github.com/Mirra-Mathias/PYQGIS_SRO_PRINT]]></repository>
         <tags><![CDATA[pdf,sro,impression,section]]></tags>
         <server>False</server>
     </pyqgis_plugin>
